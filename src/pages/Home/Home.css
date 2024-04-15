@@ -1,0 +1,33 @@
+.home {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)),
+        url(../../assets/bglime.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+    color: black;
+}
+.home__wrapper {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.296);
+}
+.home__header {
+    font-size:  1.5rem;
+    color: rgb(40, 36, 36);
+    font-weight: 500;
+}
+.home__subheader {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}

@@ -1,0 +1,38 @@
+.aside {
+    position: fixed;
+    left: 0;
+    width: 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+}
+
+.aside__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    justify-content: space-between;
+    color: black;
+}
+.aside__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aside__divider {
+    width: 1px;
+    height: 20%;
+    background-color: black;
+}
+.aside__txt {
+    height: 30%;
+}
+.aside__txt span {
+    display: block;
+    transform: rotate(-90deg) translate(-25%, -2px);
+    width: max-content;
+}

@@ -1,0 +1,43 @@
+.contacts {
+    border-top: 1px solid black;
+    margin-top: 25px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts__title {
+    color: rgb(83, 75, 75);
+    margin-top: 25px;
+    font-size: 56px;
+}
+.contacts__address {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contacts__call__mail {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin-top: 50px;
+}
+
+.call__item,
+.mail__item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
+svg {
+    width: 24px;
+    height: 24px;
+}
+.contact__rights {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
